@@ -11,7 +11,7 @@ Este repositório contém o cédigo para análise de tráfego de redes IoT e **d
   - Processam arquivos PCAP, filtram pacotes, extraem features e realizam a rotulagem dos dados.
 
 - `run.sh`  
-  - Script auxiliar para executar processos sequenciais do pipeline de análise.
+  - Script auxiliar para executar processos sequenciais do pipeline de análise e salva o tempo de processamento.
 
 - `process.py`  
   - Calcula métricas estat?sticas sobre as features extraídas.  
